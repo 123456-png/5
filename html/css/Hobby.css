@@ -3,4 +3,8 @@
 
 	 		background-image: url("fon1.jpg"); 
 	 	} 
+	 	button:hover
+	 	{
+	 		background:pink;
+	 	}
 <style>
