@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		h1 {
+			text-align: center;
+		}
+		.main{
+			display: inline-block;
+			width: 200px;
+			height: 100px;
+			text-align: center;
+			background: blue;
+			border: 2px solid darkblue;
+		}
+
+		.main p {
+			position: relative;
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<h1>Относительное позиционирование</h1>
+	
+	<div style="text-align: center;">
+		<div class="main">
+			<p>position: relative;</p>
+		</div>
+		<div class="main">
+			<p style="top: 20px">position: relative;</p>
+		</div>
+		<div class="main">
+			<p style="left: 20%">position: relative;</p>
+		</div>
+		<div class="main">
+			<p style="left: 20%; bottom: -30px">position: relative;</p>
+		</div>
+	</div>
+		
+	
+</body>
+</html>
